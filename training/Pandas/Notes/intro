@@ -1,0 +1,9 @@
+*Iatalation :   pip install pandas
+
+*how to use it (import) :  import pandas as pandas
+
+*difference between numpy and pandas
+                  pandas                                                                                          numpy
+
+-> we can handle missing value                                                         -> it will have a problem
+->labeled                                                                              ->default labelled

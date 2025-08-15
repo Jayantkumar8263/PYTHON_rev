@@ -1,0 +1,5 @@
+tuple:
+it is ordered, immutable collection of elements.
+it is represented by ( )
+
+ex : a = (1,2,3)
