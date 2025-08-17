@@ -2,9 +2,10 @@
 Sample List : (8, 2, 3, -1, 7)
 Expected Output : -336'''
 
-def multiply(M):
-    y = 1
-    for x in M:
-        y *= x
-    return y
-print(multiply((8, 2, 3, -1, 7))) 
+def multiply():
+    x = [8, 2, 3, -1, 7]
+    print(x[0]*x[1]*x[2]*x[3]*x[4])
+multiply()
+def update():
+    pass
+update()

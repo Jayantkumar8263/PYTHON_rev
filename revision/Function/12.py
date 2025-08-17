@@ -11,4 +11,4 @@ def palindrome(S):
         RSL += 1
         LSL += 1
     return True
-palindrome(print(palindrome('madam')))
+print(palindrome('madam'))
