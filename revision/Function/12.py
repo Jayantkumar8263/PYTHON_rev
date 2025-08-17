@@ -3,12 +3,12 @@ Note: A palindrome is a word, phrase, or sequence that reads the same backward a
 
 def palindrome(S):
     LSL = 0
-    RSL = len(S)-1
-    while RSL >= RSL :
+    RSL = len(S) - 1
+    while RSL >= LSL:
         if RSL == LSL:
-            return True
+            return False
         
         RSL += 1
         LSL += 1
-    return(True)
-print(palindrome('mam'))
+    return True
+palindrome(print(palindrome('madam')))
