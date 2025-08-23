@@ -1,6 +1,6 @@
 '''Write a Python program to find the intersection of two given arrays using Lambda.'''
 
-a = input('Enter an array :')
-b = input('Enter an array :')
-x = list(filter(lambda x : x in a and b ))
-print(x(a,b))
+a = [1, 2, 3, 5, 7, 8, 9, 10]
+b = [1, 2, 4, 8, 9]
+result = list(filter(lambda x: x in a, b))
+print('intersections are : ', result)
