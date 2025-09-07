@@ -7,5 +7,5 @@ class student_info:
         print(f"{self.name} is in {self.standard}")
 a = student_info()
 a.info()
-'''self is a method, argument which we give to the function in which is used to derive it inside a class.'''
+'''self is a method, argument which we give to the function, which is used to derive it inside a class.'''
 #print(a.name, a.standard, a.age)
