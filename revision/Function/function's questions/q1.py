@@ -1,4 +1,4 @@
-'''Write a Python function to find the maximum of three numbers.'''
+'''Write a function `max_of_three(a, b, c)` that takes three numbers as arguments and returns the largest of them.'''
 
 def maximum(a, b, c):
     x = max(a, b, c)

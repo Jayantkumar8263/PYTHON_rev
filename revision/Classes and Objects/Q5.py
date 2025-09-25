@@ -9,5 +9,9 @@ a = student_info()
 #a.name = 'gautam dutta'
 #a.standard = 11
 a.info()
+b = student_info()
+b.name = 'gautam dutta'
+b.standard = 11
+b.info()
 '''self is a method, argument which we give to the function, which is used to derive it inside a class.'''
 #print(a.name, a.standard, a.age)
